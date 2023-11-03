@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.grid_container{
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    
+    grid-template-areas: 
+    "A A B B B B"
+    "C C D D D E"
+    "C C D D D E"
+    "F F G H I I" ;            
+    
+    
+
+
+
+}
+.box{
+    background-color: crimson;
+    border: 1px solid violet;
+    
+    
+}
+.box_one{
+    grid-area: A;
+}
+.box_two{
+    grid-area: B;
+}
+.box_three{
+    grid-area: C;
+}
+.box_four{
+    grid-area: D;
+}
+.box_five{
+    grid-area: E;
+}
+.box_six{
+    grid-area: F;
+}
+.box_seven{
+    grid-area: G;
+}
+.box_eight{
+    grid-area: H;
+}
+.box_nine{
+    grid-area: I;
+}
