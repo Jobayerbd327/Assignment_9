@@ -57,6 +57,21 @@ body{
 .box_nine{
     grid-area: I;
 }
+
+@media  screen and (max-width:1280px) {
+    .box{
+        background-color: rgb(95, 109, 16);
+        border: rgb(231, 15, 15) 2px solid;
+        
+        
+        
+    }
+    
+}
+
+
+
+
 @media  screen and (max-width:768px) {
     .box{
         background-color: rgb(18, 16, 109);
