@@ -57,3 +57,24 @@ body{
 .box_nine{
     grid-area: I;
 }
+@media  screen and (max-width:768px) {
+    .box{
+        background-color: rgb(18, 16, 109);
+        border: white 2px solid;
+        
+        
+        
+    }
+    
+}
+
+@media  screen and (max-width:480px) {
+    .box{
+        background-color: rgb(214, 31, 238);
+        border: rgb(12, 12, 179)2px solid;
+        
+        
+        
+    }
+    
+}
